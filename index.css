@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Varela+Round&display=swap');
+
+/* 태그 조정 */
+a {
+    font-family: 'Varela Round', sans-serif;
+    color: burlywood;
+}
+.a_none{
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
+    margin-bottom: 15px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 700;
+}
+
+span {
+    font-size: 25px;
+}
+.botton_div_20px{
+    margin-bottom: 20px;
+}
+.zero_span_150px{
+    margin-right: 150px;
+}
+.zero_span_40px{
+    margin-right: 40px;
+}
+
+.zero_span_70px{
+    margin-right: 70px;
+}
+.zero_span_95px{
+    margin-right: 95px;
+}
+.zero_span_190px{
+    margin-right: 190px;
+}
+.zero_span_200px{
+    margin-right: 200px;
+}
+.zero_span_205px{
+    margin-right: 205px;
+}
+
+/* 탑 컨테이너 ------------------------------------------------- */
+.top_container > *{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: 10;
+    user-select: none; 
+}
+
+.main_point{
+    display: inline-block;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%,0.7);
+    line-height: 2rem;
+    cursor: pointer;
+}
+
+.right_point{
+    float: right;
+}
+
+.right_menu{
+    display: inline-block;
+    padding: 0 10px;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.7);
+    line-height: 20px;
+    cursor: pointer;
+}
+.top_bar{
+    background-color: rgba(10, 10, 10, 0.5);
+    width: 100%;
+    height: 75px;
+    padding: 20px 30px;
+    margin: 0 auto;
+}
+
+.top_bar > div{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.right_point > div {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+/* ------------------------------------------------------------------------ */
+
+/* main 컨테이너 */
+.main_container{
+    width: 100%;
+    margin: 0 auto;
+    padding: calc(4rem + 4.5rem) 2rem 4rem;
+    text-align: center;
+}
+
+.main_title{
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    color: #fff;
+    word-break: keep-all;
+    text-align: left;
+}
+
+
+/* ------------------------------------------------------------------------ */
+
+/* abount me 컨테이너 */
+.about_container{
+    width: 100%;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+}
+
+.about_title{
+    position: relative;
+    margin: 0 auto 1rem;
+    color: burlywood;
+}
+
+.about_title_text {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family:'Varela Round', sans-serif;
+}
+
+.about_infos{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+/* ------------------------------------------------------------------------ */
+
+/* skills 컨테이너 */
+.skills_container{
+    width: 100%;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    height: 77rem;
+}
+
+.skills_title{
+    position: relative;
+    margin: 0 auto 1rem;
+    color: burlywood;
+}
+
+.skills_title_text {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family:'Varela Round', sans-serif;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+/* team 컨테이너 */
+.archiving_container{
+    width: 100%;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    height: 77rem;
+}
+
+.archiving_title{
+    position: relative;
+    margin: 0 auto 1rem;
+    color: burlywood;
+}
+
+.archiving_title_text {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family:'Varela Round', sans-serif;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+/* toy 컨테이너 */
+.toy_container{
+    width: 100%;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    height: 77rem;
+}
+
+.toy_title{
+    position: relative;
+    margin: 0 auto 3rem;
+    color: burlywood;
+}
+
+.toy_title_text {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family:'Varela Round', sans-serif;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+/* effort 컨테이너 */
+.effort_container{
+    width: 100%;
+    padding: 4rem 2rem;
+    margin: 0 auto;
+    height: 77rem;
+}
+
+.effort_title{
+    position: relative;
+    margin: 0 auto 3rem;
+    color: burlywood;
+}
+
+.effort_title_text {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family:'Varela Round', sans-serif;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+#home {
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-position: center center;
+    background: linear-gradient(
+        180deg,rgba(112,93,80,.8) 0,rgba(112,93,80,.8) 90%),url("https://static.news.zumst.com/images/25/2018/10/28/16effee24efc4921bca0454b660a321b.jpg") 50% no-repeat;
+}
+#aboutme {
+    width: 100%;
+    height: 570px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-position: center;
+}
+#skills {
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-position: center;
+}
+
+#team {
+    width: 100%;
+    height: 585px;
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#toy {
+    width: 100%;
+    height: 600px;
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#effort {
+    width: 100%;
+    height: 150px;
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
